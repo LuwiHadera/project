@@ -112,7 +112,7 @@
 function form(){
   let pwd1 = document.getElementById('pwd1').value
   let pwd2 = document.getElementById('pwd2').value
-  // let passw=  /^[A-Za-z]\w{7,14}$/;
+
 
   if(pwd1 !== pwd2){
     alert('Passwords must match.')
@@ -127,12 +127,6 @@ function form(){
   } else{
     form1.action = "./login.html"
   }
- 
-  //  else if(!pwd1.match(passw)){
-  //   alert('password must have at least one special character')
-  //   form1.action = 'none'
-  // }
-
 }
 </script>
 </html>
